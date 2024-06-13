@@ -1,4 +1,4 @@
-#Project - 4 : Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront
+# Project - 4 : Deploying Serverless Web Application on AWS: S3, API Gateway, Lambda, DynamoDB, and CloudFront
 
 1. First create a DynamoDb table and create partition key as studentid type as string.
 2. Then create two Lambda function. One for getting students from database and second one for putting new students to database. Also create new role for DynamoDb so that Lambda function can access database and attach while creating function’s.
